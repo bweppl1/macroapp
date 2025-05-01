@@ -1,5 +1,6 @@
 {
   "expo": {
+    "entryPoint": "./app/index.jsx",
     "name": "MacroTracker",
     "slug": "MacroTracker",
     "version": "1.0.0",
