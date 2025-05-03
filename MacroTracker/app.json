@@ -8,7 +8,6 @@
     "icon": "./assets/images/icon.png",
     "scheme": "macrotracker",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
     },
@@ -35,7 +34,12 @@
           "backgroundColor": "#ffffff"
         }
       ],
-      "expo-sqlite"
+      [
+        "expo-sqlite",
+        {
+          "iosDatabaseLocation": "default"
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true
